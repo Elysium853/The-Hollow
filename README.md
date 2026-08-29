@@ -236,7 +236,7 @@ The prose lives in this repository; the lyrics and audio stream wherever the sag
 
 ### Suno playlists by album
 
-Each album streams on Suno as its own playlist — ten playlists, one unbroken count:
+Each album streams on Suno as its own playlist — plus one playlist for the whole saga in a single sitting: eleven playlists, one unbroken count.
 
 | # | Album | Suno playlist |
 |---|-------|---------------|
@@ -250,6 +250,7 @@ Each album streams on Suno as its own playlist — ten playlists, one unbroken c
 | P2 | **The Eleventh Figure** | 🎵 [Play on Suno](https://suno.com/playlist/25ffcf14-fee4-4c7c-aa9e-69db2428e062) |
 | P3 | **Bloodlines** | 🎵 [Play on Suno](https://suno.com/playlist/89d18fd1-2737-4a94-b394-2868e29db292) |
 | — | **Dawn of the Void** | 🎵 [Play on Suno](https://suno.com/playlist/a00f68ca-802c-4449-9222-b6df838c56fa) |
+| All | **The Hollow - Complete Saga (All 10 Albums)** | 🎵 [Play on Suno](https://suno.com/playlist/7ca55974-d452-4074-88f5-bdc045e664e4) |
 
 ---
 
