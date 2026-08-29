@@ -8,7 +8,7 @@ A hunger older than light — buried beneath the world, starving on fullness —
 
 ## Timeline (album-by-anchor)
 
-The presentation order is **origin → opening chapter → prequel trilogy → main line** (per `.github/MEMORY.md`); the anchors below follow the story's own chronology.
+The README, the playlist tables, and the cast page present the saga in **release order** (opening chapter → main line → prequel trilogy → origin); the anchors below follow the story's own chronology.
 
 ### Before Creation — *Dawn of the Void*
 - **Tohu**, the last of the great ones, made of space rather than light, buried beneath the world, starving on fullness, becomes **the Hollow**.

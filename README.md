@@ -79,11 +79,11 @@ Tracks are AI-generated (Suno); each MP3 ships with a canonical ID3v2.3 tag set 
 - `CANON.md` — the canon: a chronological timeline with anchors, a glossary of Filipino terms in the lyrics, and the arithmetic lock (the count, the four/fifth invariants, the ages that pin them); the automated checks in `check-parity.sh` enforce the canonical parts.
 - `.github/MEMORY.md` — workspace memory for AI agents (canon, conventions, discrepancies, workflow); tracked normally.
 - `.gitattributes` — text conventions: all markdown and scripts are LF (normalized 2026-08-27) and MP3s are marked binary; no Git LFS in use, so a plain `git clone` is complete.
-- `.gitignore` — excludes `.logs/`, `.private/`, `.temp/`, `node_modules/`; `.private/` holds API config and must never be committed.
+- `.gitignore` — excludes `.logs/`, `.private/`, `.temp/`, `node_modules/`, and everything under `.github/` except `workflows/` and `MEMORY.md`; `.private/` holds API config and must never be committed.
 
 ## Status
 
-Published to GitHub; `main` is fully pushed. The repository contains prose, lyrics, and per-track audio only (~560 MB working tree) — a plain `git clone` is complete.
+Published to GitHub; `main` is fully pushed. The repository holds the prose stories, per-track lyrics and audio, the album covers, the saga montage, and the generated full-saga exports (`The-Hollow.html`, `The-Hollow.pdf`) — ≈633 MB working tree; a plain `git clone` is complete.
 
 ## Characters
 

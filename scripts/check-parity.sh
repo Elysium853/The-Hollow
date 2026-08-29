@@ -13,6 +13,8 @@
 #   5. canon & text checks: banned stale canon values in lyric files, a
 #      `## Lyrics` section in every lyric file, the arithmetic-lock count
 #      line, and LF-only line endings in tracked text files (see CANON.md).
+#      Generated `*.pdf` exports are excluded from the LF scan — PDF internals
+#      legitimately use CRLF; the export is pinned `binary` in .gitattributes.
 #
 # Usage:        scripts/check-parity.sh
 # Exit code:    0 when the whole repository is consistent, 1 otherwise.
@@ -274,7 +276,7 @@ fi
 while IFS= read -r f; do
   [ -n "$f" ] || continue
   case "$f" in
-    *.mp3|*.png|*.jpg|*.jpeg) continue ;;
+    *.mp3|*.png|*.jpg|*.jpeg|*.pdf) continue ;;
   esac
   if LC_ALL=C grep -Uq $'\r' "$f"; then
     text_problems+="  ${f}: contains CR (non-LF line endings)"$'\n'

@@ -11,3 +11,8 @@
 
 # Audio is binary — never diff, merge, or line-ending-normalize MP3s.
 *.mp3 binary
+
+# The PDF export is a generated binary artifact (PDF internals legitimately use
+# CRLF); the HTML export is regenerable text and stays on LF like everything else.
+*.pdf binary
+*.html text eol=lf
