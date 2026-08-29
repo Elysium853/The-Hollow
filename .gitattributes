@@ -1,0 +1,13 @@
+# Repository text conventions (normalized 2026-08-27).
+# All text files are LF. The album .md files were CRLF; keep everything on LF to avoid
+# diff noise — this rule renormalizes any stray CRLF on stage.
+*.md text eol=lf
+*.sh text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.editorconfig text eol=lf
+*.yml text eol=lf
+*.tsv text eol=lf
+
+# Audio is binary — never diff, merge, or line-ending-normalize MP3s.
+*.mp3 binary

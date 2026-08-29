@@ -1,0 +1,37 @@
+# parity.yml — The-Hollow's repository-wide invariant gate (P4 #11).
+#
+# Runs scripts/check-parity.sh on every push to main and every PR that
+# targets main (plus manual dispatch). The script verifies MD<->MP3 parity,
+# the ID3 tag layer (via python3 + mutagen in ~/.venvs/hollow), and the
+# canon & text layer. No secrets, no LFS, ~30-60s per run.
+
+name: parity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: parity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up python3 + mutagen for the tag-layer check
+        run: |
+          python3 -m venv "${HOME}/.venvs/hollow"
+          "${HOME}/.venvs/hollow/bin/pip" install --quiet mutagen
+
+      - name: Run check-parity.sh
+        run: bash ./scripts/check-parity.sh
