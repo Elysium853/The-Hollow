@@ -87,21 +87,9 @@ Published to GitHub; `main` is fully pushed. The repository contains prose, lyri
 
 ## Characters
 
-The saga's cast, album by album, in canonical order (the `#` column of the table above). A handful of figures carry the whole series — the four women of Kentucky, the Hollow, and the bloodlines of the old covenants — so the same names recur under several albums; each entry is attributed to the album where that version of them matters most.
+The saga's cast, album by album, in release order (the numbered list above). A handful of figures carry the whole series — the four women of Kentucky, the Hollow, and the bloodlines of the old covenants — so the same names recur under several albums; each entry is attributed to the album where that version of them matters most.
 
-### Dawn of the Void (the origin, before Creation)
-
-- **The Most High** — God; the Throne at the center of the singing, pouring light out into the dark.
-- **The Word** — the Son, the door through which all things are made; speaks the first light after the burial.
-- **Tohu** — the last of the great ones, made of space rather than light: the lantern of the threshold, the vessel that passes the Throne's light into the far dark. Buried beneath the world, starving on fullness, he becomes **the Hollow**.
-- **Samael** — the Bright One, the Son of the Morning, the seal of perfection; his resentment of the love poured through Tohu begins the war in heaven, and a third of the host falls with him.
-- **Michael** — the archangel, "Who is like God?"; the wall that keeps the music from collapsing, leader of the faithful ranks.
-- **Gabriel, Raphael, and Uriel** — the herald who is the first to weep, the healer who meets the first wound he cannot close, and the fire of God who commands the loyal host.
-- **The Cherubim** — the four-faced chariot (lion, ox, man, eagle); the origin of every count in four the Hollow is later caged by.
-- **Bathala the Keeper** — the earth-name of the Keeper of the Door, the seal's fifth point, appointed at the first dawn; the anti-appetite who starves on wanting and delivers the doctrine *"Not by blade. By fullness."*
-- **Dalisay** — the frame: the one who refused, to whom the oldest scroll shows the dawn of the void (her own story is The Solitary Path).
-
-### The Red Hollow of Kentucky
+### The Red Hollow of Kentucky (Album 1)
 
 - **Lina** — practical and patient; a nurse who books the campsite the afternoon Jo stops answering her phone. Ulan's mother (The Hollow Destroyed).
 - **Marisol** — a nurse with the choir pitch in her blood; her wandering begins the song by the fire.
@@ -110,53 +98,6 @@ The saga's cast, album by album, in canonical order (the `#` column of the table
 - **David** — Jo's husband, dead before the story opens; remembered again in The Hollow Destroyed's *"I Remember My Husband's Name."*
 - **The Hollow (the Red Hollow)** — the thing in the cup-shaped valley that counts what gathers (four tents, one fire) and wants a fourth name; its origins are Dawn of the Void and The Eleventh Figure.
 - **The man at the gas station** — sells the ice and the warning — *"Ain't nobody camps there no more. Not since the church burned."* — and will not look at the road; the gray-faced man of Bloodlines.
-
-### The Darkness Arrives in Cebu (P1, 1565)
-
-- **Rajah Humabon** — master of Sugbo, the voice of the red feast, who reaches for an iron alliance.
-- **Hara Amihan** — his consort, who sees where the priests are going and gives the child back into its keeper's keeping.
-- **The short captain** — the first fleet's captain (Magellan, never named in the text), answered at Mactan by Lapu-Lapu's spear.
-- **Lapu-Lapu** — datu of Mactan, who refuses the bargain and answers the sea with a spear.
-- **Nara the Keeper** — keeper of Cebu, who has watched the warm child in the hill for forty-four years and insists it is not a god; her name is the one the Hollow later wears to possess Jo.
-- **Nara's mother** — the dead babaylan whose voice the child borrows to speak.
-- **The boy in the baroto** — the fisherman's boy who brings the news of the five white ships and cannot stop shaking.
-- **Rajah Tupas** — Humabon's heir, seven when the feast turned red; years later the datu who watches Sugbo burn from the waterline to the shrine.
-- **Sikatuna** — the datu of Bohol, who keeps the sandugo on the white shell strand; **Sikatuna's son**, who hears the warning about the cup.
-- **Miguel López de Legazpi** — "the general," a Basque notary with a crown's signature and a widow's grief; his cannonade burns Sugbo in 1565.
-- **Fray Andrés de Urdaneta** — the navigator-priest, fifty-six, who fears the cargo they carry in themselves.
-- **Fray Martín de Rada** — the Augustinian who baptizes as if washing the world and receives the child's history on his knees.
-- **Juan de Camus** — the sailor who finds the tindalo box in the unburned hut and takes it to confession the same night.
-- **Nara's granddaughter** — "a girl of the springs," released from the keeper rosters at the old keeper's asking; her daughter is Doña Ignacia (The Eleventh Figure).
-- **The warm child** — the thing in the golden case: the eleventh figure, bound at Cebu with four names (one of which goes into the water, making the Hollow's count possible).
-
-### The Eleventh Figure (P2, 1565–present)
-
-- **The tally-man** — the count's clerk on the long road from the islands, dying on the word he made true: "Still eleven."
-- **Fray Mateo de la Cruz** — the cathedral priest who reads the archbishop's letter and hangs the golden case above the candles.
-- **Lope** — the tally-boy, eleven years old, who learned to read the numbers backwards and told no one.
-- **Fray Álvaro** — the friar of the Acapulco store-room who counts eleven figures where the manifest says ten.
-- **Bernal** — the old Indio who crossed on the tornaviaje, "the crate's nurse," guarding the tindalo box through the long sea with the mother's eyes and the left-hand cross.
-- **The eleventh figure** — the warm copy that slipped aboard: the Niño de la Mar, the Child of the Sea, an image that cannot take a living name but wears the shape of one, and it travels.
-- **Doña Ignacia** — the widow from the islands, fifteen years in Mexico City, who attends every Mass and gives it nothing; her last words: *"Count four. It will go where the doors are being built."*
-- **Toribio** — the sacristan's boy who steals the Child of the Sea one night and runs twelve miles in his bare feet to put it back before dawn.
-- **Lao** — eldest of the sangley carvers of the Parián, whose ivory "true copy of the copy" carried the flat black eyes across the water; he stopped carving saints, carved elephants, and burned his bench.
-- **Fray Hernando** — the practical friar of the desert mission of San Antonio, nine nights on his knees, who on the tenth hangs the warm child over the door.
-- **Mister Prather** — takes it for a river crossing in the year of the great autumn rains and sells it at the iron bridge.
-- **Asa** — the surveyor who carries it through one whole summer in his instrument chest and keeps it, unspoken, to his grave.
-- **The country it travels as cargo** — fur traders' packs, tavern hearths, a peddler who dies before his stall, a farm family's root cellar, the long hunters' year of the red water — until it stands on the ridge and chooses a hollow: the green folded hills of Kentucky.
-- **The congregation of the two rivers** — who build the 1811 church over the red-creek ground; it hangs above their table until the fire of dry October.
-- **The man at the gas station** (epilogue) — "Ain't nobody camps there no more."
-- **The ivory carvers' guild of Manila** (epilogue) — who draw the curtain on the last warm figure.
-
-### Bloodlines (P3, 1565–present)
-
-- **The grandmothers** — four choirs standing where thresholds thicken, "the fire not yet lit" (the epilogue's singers of the count).
-- **Bathilang** — the ancient Visayan witch who prayed to the busaw, spirits of corruption: Lina's line, before 1565 to "the false names."
-- **The mangkukulam** — the Tagalog covenant-sorcerers, shadow for shadow, name for name: Marisol's line.
-- **The babaylan who turned** — the light-bearer who gave up the good weather and took the patience of what lives under it: Tess's line.
-- **The anito keepers of Bicol** — the feeders of ghosts, "keepers of the fourth name since 1565": Jo's line.
-- **Lina, Marisol, Tess, and Jo** — the inheritors, recognizing in themselves the triage lists, the choir pitch, the plural *we*, and the fourth name resting in Jo "like a door with no key."
-- **The man with the gray face** — at the filling station along the old road, selling ice and never looking at the road.
 
 ### The Amuyao Covenant (Album 2)
 
@@ -210,6 +151,65 @@ The saga's cast, album by album, in canonical order (the `#` column of the table
 - **The survivors** — freed when the entity starved, they fill the pews as witnesses.
 - **Lina and Marisol** — the sacred marriage, six months on: chosen, not forced; the love that waited twenty years.
 - **David** — Jo's husband, remembered; *"I Remember My Husband's Name"* keeps his name in the light, and Jo returns to it human.
+
+### The Darkness Arrives in Cebu (P1, 1565)
+
+- **Rajah Humabon** — master of Sugbo, the voice of the red feast, who reaches for an iron alliance.
+- **Hara Amihan** — his consort, who sees where the priests are going and gives the child back into its keeper's keeping.
+- **The short captain** — the first fleet's captain (Magellan, never named in the text), answered at Mactan by Lapu-Lapu's spear.
+- **Lapu-Lapu** — datu of Mactan, who refuses the bargain and answers the sea with a spear.
+- **Nara the Keeper** — keeper of Cebu, who has watched the warm child in the hill for forty-four years and insists it is not a god; her name is the one the Hollow later wears to possess Jo.
+- **Nara's mother** — the dead babaylan whose voice the child borrows to speak.
+- **The boy in the baroto** — the fisherman's boy who brings the news of the five white ships and cannot stop shaking.
+- **Rajah Tupas** — Humabon's heir, seven when the feast turned red; years later the datu who watches Sugbo burn from the waterline to the shrine.
+- **Sikatuna** — the datu of Bohol, who keeps the sandugo on the white shell strand; **Sikatuna's son**, who hears the warning about the cup.
+- **Miguel López de Legazpi** — "the general," a Basque notary with a crown's signature and a widow's grief; his cannonade burns Sugbo in 1565.
+- **Fray Andrés de Urdaneta** — the navigator-priest, fifty-six, who fears the cargo they carry in themselves.
+- **Fray Martín de Rada** — the Augustinian who baptizes as if washing the world and receives the child's history on his knees.
+- **Juan de Camus** — the sailor who finds the tindalo box in the unburned hut and takes it to confession the same night.
+- **Nara's granddaughter** — "a girl of the springs," released from the keeper rosters at the old keeper's asking; her daughter is Doña Ignacia (The Eleventh Figure).
+- **The warm child** — the thing in the golden case: the eleventh figure, bound at Cebu with four names (one of which goes into the water, making the Hollow's count possible).
+
+### The Eleventh Figure (P2, 1565–present)
+
+- **The tally-man** — the count's clerk on the long road from the islands, dying on the word he made true: "Still eleven."
+- **Fray Mateo de la Cruz** — the cathedral priest who reads the archbishop's letter and hangs the golden case above the candles.
+- **Lope** — the tally-boy, eleven years old, who learned to read the numbers backwards and told no one.
+- **Fray Álvaro** — the friar of the Acapulco store-room who counts eleven figures where the manifest says ten.
+- **Bernal** — the old Indio who crossed on the tornaviaje, "the crate's nurse," guarding the tindalo box through the long sea with the mother's eyes and the left-hand cross.
+- **The eleventh figure** — the warm copy that slipped aboard: the Niño de la Mar, the Child of the Sea, an image that cannot take a living name but wears the shape of one, and it travels.
+- **Doña Ignacia** — the widow from the islands, fifteen years in Mexico City, who attends every Mass and gives it nothing; her last words: *"Count four. It will go where the doors are being built."*
+- **Toribio** — the sacristan's boy who steals the Child of the Sea one night and runs twelve miles in his bare feet to put it back before dawn.
+- **Lao** — eldest of the sangley carvers of the Parián, whose ivory "true copy of the copy" carried the flat black eyes across the water; he stopped carving saints, carved elephants, and burned his bench.
+- **Fray Hernando** — the practical friar of the desert mission of San Antonio, nine nights on his knees, who on the tenth hangs the warm child over the door.
+- **Mister Prather** — takes it for a river crossing in the year of the great autumn rains and sells it at the iron bridge.
+- **Asa** — the surveyor who carries it through one whole summer in his instrument chest and keeps it, unspoken, to his grave.
+- **The country it travels as cargo** — fur traders' packs, tavern hearths, a peddler who dies before his stall, a farm family's root cellar, the long hunters' year of the red water — until it stands on the ridge and chooses a hollow: the green folded hills of Kentucky.
+- **The congregation of the two rivers** — who build the 1811 church over the red-creek ground; it hangs above their table until the fire of dry October.
+- **The man at the gas station** (epilogue) — "Ain't nobody camps there no more."
+- **The ivory carvers' guild of Manila** (epilogue) — who draw the curtain on the last warm figure.
+
+### Bloodlines (P3, 1565–present)
+
+- **The grandmothers** — four choirs standing where thresholds thicken, "the fire not yet lit" (the epilogue's singers of the count).
+- **Bathilang** — the ancient Visayan witch who prayed to the busaw, spirits of corruption: Lina's line, before 1565 to "the false names."
+- **The mangkukulam** — the Tagalog covenant-sorcerers, shadow for shadow, name for name: Marisol's line.
+- **The babaylan who turned** — the light-bearer who gave up the good weather and took the patience of what lives under it: Tess's line.
+- **The anito keepers of Bicol** — the feeders of ghosts, "keepers of the fourth name since 1565": Jo's line.
+- **Lina, Marisol, Tess, and Jo** — the inheritors, recognizing in themselves the triage lists, the choir pitch, the plural *we*, and the fourth name resting in Jo "like a door with no key."
+- **The man with the gray face** — at the filling station along the old road, selling ice and never looking at the road.
+
+### Dawn of the Void (the origin, before Creation)
+
+- **The Most High** — God; the Throne at the center of the singing, pouring light out into the dark.
+- **The Word** — the Son, the door through which all things are made; speaks the first light after the burial.
+- **Tohu** — the last of the great ones, made of space rather than light: the lantern of the threshold, the vessel that passes the Throne's light into the far dark. Buried beneath the world, starving on fullness, he becomes **the Hollow**.
+- **Samael** — the Bright One, the Son of the Morning, the seal of perfection; his resentment of the love poured through Tohu begins the war in heaven, and a third of the host falls with him.
+- **Michael** — the archangel, "Who is like God?"; the wall that keeps the music from collapsing, leader of the faithful ranks.
+- **Gabriel, Raphael, and Uriel** — the herald who is the first to weep, the healer who meets the first wound he cannot close, and the fire of God who commands the loyal host.
+- **The Cherubim** — the four-faced chariot (lion, ox, man, eagle); the origin of every count in four the Hollow is later caged by.
+- **Bathala the Keeper** — the earth-name of the Keeper of the Door, the seal's fifth point, appointed at the first dawn; the anti-appetite who starves on wanting and delivers the doctrine *"Not by blade. By fullness."*
+- **Dalisay** — the frame: the one who refused, to whom the oldest scroll shows the dawn of the void (her own story is The Solitary Path).
 
 ---
 
