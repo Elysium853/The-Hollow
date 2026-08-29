@@ -234,6 +234,23 @@ The prose lives in this repository; the lyrics and audio stream wherever the sag
 | ▶️ **YouTube** | [youtube.com/@elysium853](https://www.youtube.com/@elysium853) |
 | 🐙 **GitHub** | [github.com/Elysium853](https://github.com/Elysium853) |
 
+### Suno playlists by album
+
+Each album streams on Suno as its own playlist — ten playlists, one unbroken count:
+
+| # | Album | Suno playlist |
+|---|-------|---------------|
+| 1 | **The Red Hollow of Kentucky** | 🎵 [Play on Suno](https://suno.com/playlist/a72673b4-cb66-4d00-b5ec-575acaabd52c) |
+| 2 | **The Amuyao Covenant** | 🎵 [Play on Suno](https://suno.com/playlist/3d6b4e2a-59b4-41cf-bd44-3e39ed3deaf8) |
+| 3 | **The Unholy Blood** | 🎵 [Play on Suno](https://suno.com/playlist/09ff6403-6242-417c-a7ef-cf1395b25b1c) |
+| 4 | **The Permanent Season** | 🎵 [Play on Suno](https://suno.com/playlist/abfa3986-008b-463b-b45b-327afadeccab) |
+| 5 | **The Solitary Path** | 🎵 [Play on Suno](https://suno.com/playlist/33b8e2d8-9e63-4a18-a44b-cf6e43b27fe4) |
+| 6 | **The Hollow Destroyed** | 🎵 [Play on Suno](https://suno.com/playlist/b0ab041b-0d53-436e-a71b-316c5e53124e) |
+| P1 | **The Darkness Arrives in Cebu** | 🎵 [Play on Suno](https://suno.com/playlist/a16f6921-0067-472d-9fe8-b26ed9a2ce75) |
+| P2 | **The Eleventh Figure** | 🎵 [Play on Suno](https://suno.com/playlist/25ffcf14-fee4-4c7c-aa9e-69db2428e062) |
+| P3 | **Bloodlines** | 🎵 [Play on Suno](https://suno.com/playlist/89d18fd1-2737-4a94-b394-2868e29db292) |
+| — | **Dawn of the Void** | 🎵 [Play on Suno](https://suno.com/playlist/a00f68ca-802c-4449-9222-b6df838c56fa) |
+
 ---
 
 ## License
