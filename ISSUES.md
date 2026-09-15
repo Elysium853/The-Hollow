@@ -8,7 +8,7 @@
 
 The repository is in **excellent mechanical health**: `scripts/check-parity.sh` passes clean (10 albums, **147 tracks**, full MD↔MP3 parity, complete ID3 tag layer, no banned canon values, count-lock present, LF-only text). The original review found 5 issues (all fixed). **A follow-up deep review (2026-09-15) surfaced 4 additional findings** (M3–M5, L4) — three canon/consistency items in the newest bonus content and the Bloodlines birth-year data, one stale count reference in SPOILERS, and one caption-coverage gap. No blockers; the mechanical gate remains green.
 
-**Status:** Original 5 issues fixed and pushed. Follow-up findings M3/M4/M5/L4 documented (not yet fixed).
+**Status:** Original 5 issues fixed and pushed. Follow-up findings: **M5 resolved** (captions complete); M3/M4/L4 documented (not yet fixed).
 
 ---
 
@@ -179,12 +179,14 @@ The table's ordering contradicts the header sequence. Worse, the table makes **J
 
 ---
 
-### M5 — CAPTIONS.md missing the 20 Dawn-of-the-Void bonus tracks (16–35)
+### M5 — CAPTIONS.md missing the 20 Dawn-of-the-Void bonus tracks (16–35) ✅ RESOLVED
 
 **Severity:** Medium
 **Affected:** `CAPTIONS.md`
 
-`CAPTIONS.md` has **127 caption entries**; the saga has **147 tracks**. The gap is exactly the **20 Dawn-of-the-Void bonus tracks (16–35)** — the Origin section stops at track 15. All other albums' captions match their track counts exactly (Red Hollow 10, Amuyao 12, Unholy Blood 12, Permanent Season 13, Solitary Path 12, Hollow Destroyed 17, Cebu 12, Eleventh Figure 12, Bloodlines 12, Dawn 15). Previously listed as a "lower-priority observation," it is now filed as an issue since the bonus tracks are committed content and the captions document is meant to "keep the count live."
+`CAPTIONS.md` had **127 caption entries**; the saga has **147 tracks**. The gap was exactly the **20 Dawn-of-the-Void bonus tracks (16–35)** — the Origin section stopped at track 15. All other albums' captions matched their track counts exactly (Red Hollow 10, Amuyao 12, Unholy Blood 12, Permanent Season 13, Solitary Path 12, Hollow Destroyed 17, Cebu 12, Eleventh Figure 12, Bloodlines 12, Dawn 15). Previously listed as a "lower-priority observation," it was filed as an issue since the bonus tracks are committed content and the captions document is meant to "keep the count live."
+
+**Fix applied (2026-09-15):** Wrote 20 captions in the existing style for tracks 16–35 (each written from that track's own title + lyrics) and appended them to the Dawn section. CAPTIONS.md now has **147 captions** matching **147 tracks**, with per-album counts equal across all 10 albums. LF-only preserved; `check-parity.sh` remains exit 0.
 
 ---
 
