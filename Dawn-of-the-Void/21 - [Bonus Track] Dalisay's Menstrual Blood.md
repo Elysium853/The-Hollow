@@ -1,8 +1,8 @@
-# 21 - [Bonus Track] Dalisy's Menstrual Blood
+# 21 - [Bonus Track] Dalisay's Menstrual Blood
 
 ## Lyrics
 
-**Featuring:** **Dalisy**, **The Hollow** (screaming in pain), **Lina/Marisol/Tess/Jo** (gang vocals), **Bathala** (bass rumble)
+**Featuring:** **Dalisay**, **The Hollow** (screaming in pain), **Lina/Marisol/Tess/Jo** (gang vocals), **Bathala** (bass rumble)
 
 **[Intro - Backwards masked vocals, slowing descending chromatic guitar riff, building tension like classic 1980s extreme metal]**
 *Reversed:*
@@ -11,7 +11,7 @@
 **[The riff explodes forward, drums enter at full speed]**
 
 **[Verse 1 - Shouted, aggressive, rapid-fire vocal delivery]**
-*Dalisy:*
+*Dalisay:*
 TWELVE YEARS OLD!
 FIRST BLOOD ON THE RICE TERRACE STONE!
 THE MUMBAKI SAID IT WAS SHAME!
@@ -27,7 +27,7 @@ WHAT DIES AND RISES!
 WHAT BLEEDS AND LIVES!
 
 **[Pre-Chorus - Building intensity, drums accelerating]**
-*Dalisy:*
+*Dalisay:*
 THE HOLLOW HUNGERS!
 THE HOLLOW DEVOURS!
 BUT IT CANNOT DIGEST
@@ -47,7 +47,7 @@ MENSTRUAL BLOOD!
 *THE HOLLOW SCREAMS FOR MORE!*
 
 **[Verse 2 - Faster, more aggressive, guitar solo building]**
-*Dalisy:*
+*Dalisay:*
 TOHU WAS THE VESSEL!
 THE CUP THAT CLENCHED!
 THE EMPTY THAT WANTED FULL!
@@ -74,8 +74,8 @@ BUGAN'S SECRET NAME!
 *SOMETHING THAT DOES NOT ASK PERMISSION!*
 *SOMETHING THAT FLOWS WHETHER I WANT OR NOT!*
 
-**[Dalisy responds, spoken word over crushing riff]**
-*Dalisy:*
+**[Dalisay responds, spoken word over crushing riff]**
+*Dalisay:*
 You taught us to want,
 To clench, to hold.
 But the blood teaches
@@ -101,7 +101,7 @@ MENSTRUAL BLOOD!
 *THE WOMB DOES NOT BEG! IT DOES NOT PLEAD!*
 
 **[Breakdown - Tom-heavy section, tribal, gangsa percussion enters]**
-*Dalisy:*
+*Dalisay:*
 THE GANGSA RINGS!
 THE KULINTANG ANSWERS!
 THE MUMBAKI CHANTS!
@@ -125,7 +125,7 @@ MENSTRUAL BLOOD!
 *THE DOOR! THE DOOR! THE DOOR!*
 
 **[Outro - Riff slows, descending chromatic pattern returns, drums stop, single guitar feedback]**
-*Dalisy:*
+*Dalisay:*
 *The Hollow cannot consume*
 *What creates itself.*
 *The void has no appetite*

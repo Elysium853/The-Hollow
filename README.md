@@ -48,9 +48,9 @@ For track listings and runtimes per album, see the table below (canonical number
 | P1 | **The Darkness Arrives in Cebu** | 1565. The sandugo, the child in the box, and the fourth name that goes into the water | 12 | ≈28m |
 | P2 | **The Eleventh Figure** | 1565–1841. Ten figures on the manifest, eleven in the store-room at Acapulco | 12 | ≈27m |
 | P3 | **Bloodlines** | 1565–present. Four grandmothers sing the count across the widest water in the world | 12 | ≈34m |
-| — | **Dawn of the Void** | The beginning of The Hollow: Dalisay's vision of the void before light, and the daughters who refused | 15 | ≈1h 03m |
+| — | **Dawn of the Void** | The beginning of The Hollow: Dalisay's vision of the void before light, and the daughters who refused | 35 (15 + 20 bonus) | ≈2h 32m |
 
-Full saga runtime: **≈7h 05m across 127 tracks** (measured 2026-08-27) — every album is sized for a single sitting.
+Full saga runtime: **≈8h 33m across 147 tracks** (measured 2026-09-15) — every album is sized for a single sitting.
 
 Full credit on every track is **Echoes of 1848** — see *Making the media* below for the shipped ID3 metadata.
 
@@ -78,9 +78,9 @@ Tracks are AI-generated (Suno); each MP3 ships with a canonical ID3v2.3 tag set 
 - `scripts/tag.sh` — distribution-ready ID3v2.3 tag pass over all MP3s (title, track number, artist **Echoes of 1848**, prettified album, genre, year, embedded `USLT` lyrics, preserved Suno comment). Metadata only — audio bytes untouched.
 - `CANON.md` — the canon: a chronological timeline with anchors, a glossary of Filipino terms in the lyrics, and the arithmetic lock (the count, the four/fifth invariants, the ages that pin them); the automated checks in `check-parity.sh` enforce the canonical parts.
 - `SPOILERS.md` — a spoil-heavy companion for after the albums: what the child in the box is, how the count and the bindings work, and the mechanics the saga only explains across several albums. Safe-to-read-first summary in §0; track captions that keep the count live in `CAPTIONS.md`.
-- `.github/MEMORY.md` — workspace memory for AI agents (canon, conventions, discrepancies, workflow); tracked normally.
+- `.private/MEMORY.md` — private workspace memory for AI agents (canon, conventions, discrepancies, workflow); gitignored, never committed (per the workspace-wide `.private/MEMORY.md` convention).
 - `.gitattributes` — text conventions: all markdown and scripts are LF (normalized 2026-08-27) and MP3s are marked binary; no Git LFS in use, so a plain `git clone` is complete.
-- `.gitignore` — excludes `.logs/`, `.private/`, `.temp/`, `node_modules/`, and everything under `.github/` except `workflows/` and `MEMORY.md`; `.private/` holds API config and must never be committed.
+- `.gitignore` — excludes `.logs/`, `.private/`, `.temp/`, `node_modules/`, `_POTENTIAL-UPDATES/`, and everything under `.github/` except `workflows/`; `.private/` holds the AI workspace memory and API config and must never be committed.
 
 ## Status
 
@@ -218,7 +218,7 @@ The saga's cast, album by album, in release order (the numbered list above). A h
 
 **Elysium853** — cosmic horror, told in concept albums. The Hollow saga: ten albums, one unbroken count. Death, symphonic, and thrash metal braided with the oldest instruments of the Philippines — kulintang, agung, gangsa, kudyapi, dabakan, bamboo flutes, and the subing jaw harp — sung in the voices of grandmothers who decided the young must survive what the old prepared.
 
-Elysium853 is the pen behind **Echoes of 1848**, creator of **The Hollow** — a Filipino-diaspora cosmic-horror saga: ten albums, 127 tracks, seven hours. It opens with one ordinary camping trip by four Filipino women into the deep woods of eastern Kentucky and closes with the hunger starved by wholeness — and in between, an ancient appetite follows four family bloodlines across the widest water in the world and learns to count. The work is a production pipeline as much as a creative one: the prose is the canon, the lyrics are the script, and the music is the score — every album a complete story-audio package, and every tracked file kept honest by parity checks, CI gates, signed commits, and ID3 tags that survive redistribution.
+Elysium853 is the pen behind **Echoes of 1848**, creator of **The Hollow** — a Filipino-diaspora cosmic-horror saga: ten albums, 147 tracks, over eight and a half hours. It opens with one ordinary camping trip by four Filipino women into the deep woods of eastern Kentucky and closes with the hunger starved by wholeness — and in between, an ancient appetite follows four family bloodlines across the widest water in the world and learns to count. The work is a production pipeline as much as a creative one: the prose is the canon, the lyrics are the script, and the music is the score — every album a complete story-audio package, and every tracked file kept honest by parity checks, CI gates, signed commits, and ID3 tags that survive redistribution.
 
 Beyond the saga, the archive holds standalone cycles — the memory-tolled ferry of *The Salt Line*, the internment-camp ghosts of *Ash Road to the Fifth Chrysanthemum*, the galleon road of *The Santa Maria's Shadow*, and the cornfield communion of *The Scarecrow Madonna*. And beyond the writing, Elysium853 is a builder of small, reliable machines: Discord bots (ElyAdmin, Wizards-Castle), a zero-dependency multi-provider AI CLI (ElyProjectX), a personal web hub, and a cross-platform automation library — because if it's on this machine, it's documented, verified, and three characters away from a commit, and the machine should always serve the story.
 

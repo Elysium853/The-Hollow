@@ -25,7 +25,7 @@
 #     scripts/audio-audit.sh -o FILE   also write the per-file TSV baseline
 #     scripts/audio-audit.sh -h        this help
 #
-# Requires: ffprobe (ships with ffmpeg). The full run decodes ~7h05m of
+# Requires: ffprobe (ships with ffmpeg). The full run decodes ~8h33m of
 # audio — a few minutes single-threaded; --quick finishes in seconds.
 
 set -u

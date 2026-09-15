@@ -2,7 +2,7 @@
 
 ## Lyrics
 
-**Featuring:** **The Hollow** (Tohu), **Dalisy** (spoken response), **Lina/Marisol/Tess/Jo** (fading voices)
+**Featuring:** **The Hollow** (Tohu), **Dalisay** (spoken response), **Lina/Marisol/Tess/Jo** (fading voices)
 
 **[Intro - Music box alone, tinkling, slightly out of tune]**
 *The melody: "Sa Ugoy ng Duyan" (The Sway of the Cradle) but played backwards, notes in reverse order*
@@ -90,8 +90,8 @@ Open?
 
 ---
 
-**[Dalisy speaks, distant, as if in dream]**
-*Dalisy:*
+**[Dalisay speaks, distant, as if in dream]**
+*Dalisay:*
 *Who are you?*
 *The Hollow:*
 I am what waits

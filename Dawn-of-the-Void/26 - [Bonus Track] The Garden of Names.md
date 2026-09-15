@@ -8,7 +8,7 @@
 
 **[Verse 1 - Dalisay speaks, teaching]**
 
-*Dalisy:*
+*Dalisay:*
 Jo, tend this row.
 These are the names
 Of those you took.
@@ -46,7 +46,7 @@ Of taking.
 
 **[Verse 3 - Dalisay guides]**
 
-*Dalisy:*
+*Dalisay:*
 Then let your hands
 Learn new warmth.
 The warmth
@@ -65,7 +65,7 @@ But only
 
 **[Chorus - Together, learning]**
 
-*Dalisy:*
+*Dalisay:*
 Faith is not
 The absence
 Of hunger.
@@ -75,7 +75,7 @@ The garden
 You tend
 Anyway.
 
-*Dalisy:*
+*Dalisay:*
 Forgiveness is not
 Forgetting
 The warmth.
@@ -92,7 +92,7 @@ Instead of
 
 **[Verse 4 - Night teaching, intimate]**
 
-*Dalisy:*
+*Dalisay:*
 Each night
 We come here.
 Each night
@@ -105,12 +105,12 @@ One seed.
 *Jo:*
 Maria.
 *[Flute note]*
-*Dalisy:*
+*Dalisay:*
 Again.
 *Jo:*
 Maria
 Of the warm hands.
-*Dalisy:*
+*Dalisay:*
 Again.
 *Jo:*
 Maria
@@ -121,7 +121,7 @@ I stole.
 
 **[Bridge - Dawn breaking]**
 
-*Dalisy:*
+*Dalisay:*
 You do not
 Consume her
 Now.
@@ -145,7 +145,7 @@ Just
 I am learning
 The faith
 Of gardeners.
-*Dalisy:*
+*Dalisay:*
 The faith
 Of those who wait.
 
@@ -154,7 +154,7 @@ I am learning
 Forgiveness
 Is not
 *Being full.*
-*Dalisy:*
+*Dalisay:*
 But
 *Being present.*
 
@@ -164,11 +164,11 @@ But
 
 *Jo:*
 I was the fourth.
-*Dalisy:*
+*Dalisay:*
 You are the one.
 *Jo:*
 I was the mouth.
-*Dalisy:*
+*Dalisay:*
 You are the hand
 That plants.
 

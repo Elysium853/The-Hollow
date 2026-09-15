@@ -1,6 +1,6 @@
 # The Hollow — Canon
 
-*The single source of truth for names, timeline, terminology, and the arithmetic every track must obey. The README carries the cast and story summary; `.github/MEMORY.md` carries the working notes; this file is the canonical layer both of them reference. `scripts/check-parity.sh` enforces the automated parts (§ Arithmetic lock → "Enforced by automation").*
+*The single source of truth for names, timeline, terminology, and the arithmetic every track must obey. The README carries the cast and story summary; `.private/MEMORY.md` (gitignored) carries the private working notes; this file is the canonical layer both of them reference. `scripts/check-parity.sh` enforces the automated parts (§ Arithmetic lock → "Enforced by automation").*
 
 ## The one-line canon
 
