@@ -3,9 +3,12 @@
 ## Lyrics
 
 [Spoken Intro]
-1978, 1979, 1980, 1981 —
-four children in four hospitals,
-an hour apart, none knowing.
+Lina, born nineteen-seventy-nine —
+Marisol, nineteen-eighty —
+Tess, nineteen-eighty-one —
+Jo, the keeper of the count's oldest year, nineteen-seventy-eight.
+Four children in four hospitals,
+none knowing.
 
 [Verse 1]
 Lina with her lists, her crisis and order —

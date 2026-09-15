@@ -135,11 +135,11 @@ The new country installed them in kitchens and hospital corridors and kept their
 ---
 
 ## **PART SIX: THE COUNTING OF FOUR**
-### *(The girls — 1978, 1979, 1980, 1981, to the eve of the ordinary weekend)*
+### *(The girls — Lina 1979 · Marisol 1980 · Tess 1981 · Jo 1978, to the eve of the ordinary weekend)*
 
 ### The Counting of Four
 
-1978, 1979, 1980, 1981. Four children in four hospitals, one hour apart in history, none of them knowing. The grandparents of the new country did the arithmetic in their kitchens and recognized, one by one, what the count had done: the feast had put on a white coat, the trade was walking in a hospital hall, the turning had gone sharp and polite, the spring was still warm.
+Lina, born 1979; Marisol, 1980; Tess, 1981; and Jo, the keeper of the count's oldest year, 1978. Four children in four hospitals, none of them knowing. The grandparents of the new country did the arithmetic in their kitchens and recognized, one by one, what the count had done: the feast had put on a white coat, the trade was walking in a hospital hall, the turning had gone sharp and polite, the spring was still warm.
 
 Lina with her lists, her crisis and order — the busaw line's thousand years of triage, laundered by four generations of nurses into a profession. Marisol with the choir pitch — the mangkukulam covenant, hearing everything, owning nothing, harmonizing by reflex. Tess with the plural we of her jokes — the babaylan's kept women, refusing to be one for the funniest reasons. Jo, the calm one, the keeper of four places — the anito line and the springs, warm as a loaf, calm as a ledger, widowed too young, the fourth name resting in her like a door with no key.
 

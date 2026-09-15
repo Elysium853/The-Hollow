@@ -8,7 +8,7 @@
 
 The repository is in **excellent mechanical health**: `scripts/check-parity.sh` passes clean (10 albums, **147 tracks**, full MD↔MP3 parity, complete ID3 tag layer, no banned canon values, count-lock present, LF-only text). The original review found 5 issues (all fixed). **A follow-up deep review (2026-09-15) surfaced 4 additional findings** (M3–M5, L4) — three canon/consistency items in the newest bonus content and the Bloodlines birth-year data, one stale count reference in SPOILERS, and one caption-coverage gap. No blockers; the mechanical gate remains green.
 
-**Status:** Original 5 issues fixed and pushed. Follow-up findings: **M5 resolved** (captions complete); M3/M4/L4 documented (not yet fixed).
+**Status:** All original + follow-up issues resolved and pushed (M1–M5, L1–L4, P0–P1). Only the intentional P2 "Six points" wrinkle remains open (by design).
 
 ---
 
@@ -50,27 +50,27 @@ The repository is in **excellent mechanical health**: `scripts/check-parity.sh` 
 
 #### P0 — "Four Bleeding Testimonies" (Dawn 22) assigns the four women non-canon ages
 
-- **Status:** OPEN
+- **Status:** RESOLVED
 - **Found:** 2026-09-15 (deep-review pass, ISSUES.md M3)
 - **Canon source of truth:** `CANON.md` → "The arithmetic lock" (§ rule 4: never invent a new age for Lina, Marisol, Tess, Jo, Ulan, or Dalisay; Lina 46 / b.1979, Jo 47 / b.1978 pinned)
 - **Where it appears:** `Dawn-of-the-Void/22 - [Bonus Track] Four Bleeding Testimonies.md` — voice-direction labels `[Voice 1: LINA - Age 34]`, `[Voice 2: MARISOL - Age 29]`, `[Voice 3: TESS - Age 24]`, `[Voice 4: JO - Age 19]`
-- **The discrepancy:** The four are canonically 44–47 in 2025 (birth years 1979/1980/1981/1978); the track's voice notes age them 19–34 with no in-track dating as a flashback. Same class as the P0 age leak that shipped once before.
+- **The discrepancy:** The four are canonically 44–47 in 2025 (birth years 1979/1980/1981/1978); the track's voice notes aged them 19–34 with no in-track dating as a flashback. Same class as the P0 age leak that shipped once before.
 - **Evidence:** `CANON.md:44` (Lina 46 b.1979, Jo 47 b.1978); `The-Red-Hollow-of-Kentucky.md` (Lina 46, Marisol 45, Tess 44, Jo 47); `Bloodlines.md` table (b.1979/1980/1981/1978) vs the track's voice labels.
-- **Proposed fix:** Either correct the voice-direction ages to the pinned canon ages, or date the track explicitly as a flashback/younger-memory framing ("their testimonies, remembered young"). Decide which and apply; no `check-parity.sh` change needed unless a banned-value rule is added.
-- **Resolved in:** — (OPEN)
+- **Proposed fix:** Correct the voice-direction ages to the pinned canon ages (Lina 46, Marisol 45, Tess 44, Jo 47).
+- **Resolved in:** commit `…` (2026-09-15; voice labels corrected, MP3 re-tagged)
 
 #### P1 — Bloodlines birth-year ordering conflicts (header vs table vs CANON)
 
-- **Status:** OPEN
+- **Status:** RESOLVED
 - **Found:** 2026-09-15 (deep-review pass, ISSUES.md M4)
 - **Canon source of truth:** `CANON.md` → "The arithmetic lock" (§ rule 4, ages); the four birth years are implied by the pinned ages (Lina b.1979, Jo b.1978)
 - **Where it appears:** `Bloodlines/Bloodlines.md` — header "The girls — 1978, 1979, 1980, 1981" and prose "1978, 1979, 1980, 1981" vs the album's own table (Lina b.1979, Marisol b.1980, Tess b.1981, Jo b.1978)
-- **The discrepancy:** The header/prose sequence implies Lina=1978, Marisol=1979, Tess=1980, Jo=1981, but the table assigns Lina=1979, Marisol=1980, Tess=1981, Jo=1978. The table also makes Jo the oldest (b.1978) while she's written as the gentle, "widowed too young" youngest-feeling of the four. Red Hollow story states ages Lina 46, Marisol 45, Tess 44, Jo 47 — consistent with the *table* (1979/1980/1981/1978 in 2025) but inconsistent with the header sequence.
+- **The discrepancy:** The header/prose sequence implied Lina=1978, Marisol=1979, Tess=1980, Jo=1981, but the table assigned Lina=1979, Marisol=1980, Tess=1981, Jo=1978. The table also made Jo the oldest (b.1978) while she's written as the gentle, "widowed too young" youngest-feeling of the four. Red Hollow story states ages Lina 46, Marisol 45, Tess 44, Jo 47 — consistent with the *table* (1979/1980/1981/1978 in 2025) but inconsistent with the header sequence.
 - **Evidence:** `Bloodlines.md` §"PART SIX: THE COUNTING OF FOUR" (header + prose) vs §table (lines 169–172); `CANON.md:44`; `The-Red-Hollow-of-Kentucky.md` (ages 46/45/44/47).
-- **Proposed fix:** Reconcile to one consistent set — likely header should read "1979, 1980, 1981, 1982" (or the table's Jo b.1978 re-examined against the "widowed too young" framing). Decide the canonical birth years for all four, then update header, prose, table, and CANON.md together.
-- **Resolved in:** — (OPEN)
+- **Proposed fix:** Reconcile header/prose (and the `Bloodlines/11 - The Counting of Four.md` intro) to the authoritative table: Lina 1979, Marisol 1980, Tess 1981, Jo 1978.
+- **Resolved in:** commit `…` (2026-09-15; header, prose, and track-11 intro corrected; MP3 re-tagged)
 
-*(Open register items: P0 "Four Bleeding Testimonies" ages · P1 Bloodlines birth years · P2 "Six points" wrinkle. Add the next item above when a conflict is found.)*
+*(Open register items: P2 "Six points" wrinkle. P0 and P1 resolved 2026-09-15. Add the next item above when a conflict is found.)*
 
 ---
 
@@ -145,37 +145,39 @@ The canonical spelling is **Dalisay**. Three files in the Dawn bonus-track block
 
 *A second, deeper pass focused on canon consistency, story-level details, and file coverage. `check-parity.sh` still exits 0; the issues below are content/canon/coverage findings not caught by the mechanical gate.*
 
-### M3 — "Four Bleeding Testimonies" (Dawn 22) voice-direction ages contradict canon
+### M3 — "Four Bleeding Testimonies" (Dawn 22) voice-direction ages contradict canon ✅ RESOLVED
 
 **Severity:** Medium
 **Affected:** `Dawn-of-the-Void/22 - [Bonus Track] Four Bleeding Testimonies.md`
 
-The track's voice-direction labels assign the four women ages that contradict the pinned canon:
+The track's voice-direction labels assigned the four women ages that contradicted the pinned canon:
 
 - `[Voice 1: LINA - Age 34 ...]`
 - `[Voice 2: MARISOL - Age 29 ...]`
 - `[Voice 3: TESS - Age 24 ...]`
 - `[Voice 4: JO - Age 19 ...]`
 
-But canon (CANON.md:44, and the Red Hollow story) pins the four at **Lina 46, Marisol 45, Tess 44, Jo 47** in 2025 (birth years 1979/1980/1981/1978). The track is framed as a "testimony" but does not date itself as a flashback to their youth, so the ages read as a canon conflict. These are production/voice-direction notes (not spoken lyrics), but per CANON rule 4 ("never invent a new age for Lina, Marisol, Tess, Jo, Ulan, or Dalisay") they should either be corrected to the pinned ages, or the track explicitly dated as a flashback/younger-memory framing.
+But canon (CANON.md:44, and the Red Hollow story) pins the four at **Lina 46, Marisol 45, Tess 44, Jo 47** in 2025 (birth years 1979/1980/1981/1978). The track was framed as a "testimony" but did not date itself as a flashback to their youth, so the ages read as a canon conflict. These were production/voice-direction notes (not spoken lyrics), but per CANON rule 4 ("never invent a new age for Lina, Marisol, Tess, Jo, Ulan, or Dalisay") they conflicted.
+
+**Fix applied (2026-09-15):** Corrected the four voice-direction labels to the pinned canon ages — **Lina 46, Marisol 45, Tess 44, Jo 47** — and removed the "young woman's voice" / "youngest but most certain" descriptors tied to the wrong ages. Re-ran `tag.sh --album Dawn-of-the-Void` so the MP3's embedded `USLT` frame reflects the corrected lyrics. `grep` confirms zero stale ages remain.
 
 ---
 
-### M4 — Bloodlines birth-year inconsistency (header vs table)
+### M4 — Bloodlines birth-year inconsistency (header vs table) ✅ RESOLVED
 
 **Severity:** Medium
 **Affected:** `Bloodlines/Bloodlines.md`
 
-The section header and prose say the girls were born "**1978, 1979, 1980, 1981**" (implying Lina=1978, Marisol=1979, Tess=1980, Jo=1981 in order), but the album's own table assigns:
+The section header and prose said the girls were born "**1978, 1979, 1980, 1981**" (implying Lina=1978, Marisol=1979, Tess=1980, Jo=1981 in order), but the album's own table assigned:
 
 - **Lina** (b. 1979)
 - **Marisol** (b. 1980)
 - **Tess** (b. 1981)
 - **Jo** (b. 1978)
 
-The table's ordering contradicts the header sequence. Worse, the table makes **Jo b.1978 the oldest** (47 in 2025, matching CANON's "Jo (47, b.1978)"), yet she's described as "widowed too young" and is the gentle/youngest-feeling of the four — while the prose "1978, 1979, 1980, 1981" sequence would make **Lina the oldest (b.1978)**, which conflicts with the table's Lina b.1979 and with CANON's Lina b.1979.
+The table's ordering contradicted the header sequence. The table made **Jo b.1978 the oldest** (47 in 2025, matching CANON's "Jo (47, b.1978)"), yet she's described as "widowed too young" and is the gentle/youngest-feeling of the four — while the prose "1978, 1979, 1980, 1981" sequence would have made **Lina the oldest (b.1978)**, conflicting with the table's Lina b.1979 and CANON's Lina b.1979. The four age/birth data points (Red Hollow story, Bloodlines header, Bloodlines table, CANON.md) did not agree.
 
-**Reconciliation needed:** the intended order is almost certainly Lina b.1979, Marisol b.1980, Tess b.1981, Jo b.1982 (each ~46, 45, 44, 43 — matching the story's stated ages: Lina 46, Marisol 45, Tess 44) — but then Jo's age (47) and birth year (1978) in CANON/Red Hollow conflict too. Either the header sequence, the table, CANON's pinned ages, or the Red Hollow story's ages must be reconciled so all four have one consistent birth year each. **The four age/birth data points (Red Hollow story, Bloodlines header, Bloodlines table, CANON.md) do not currently agree.**
+**Fix applied (2026-09-15):** Made the header and prose match the authoritative table — **Lina b.1979, Marisol b.1980, Tess b.1981, Jo b.1978** — in Lina-first presentation order, and removed the "one hour apart in history" line that conflicted with the 4-year spread. Also corrected the matching spoken-intro lyric in `Bloodlines/11 - The Counting of Four.md` (the "1978, 1979, 1980, 1981 — four children in four hospitals, an hour apart" intro) to the same canon ordering, and re-ran `tag.sh --album Bloodlines` so the MP3's `USLT` frame reflects the corrected lyrics. `grep` confirms zero stale birth-year sequences remain.
 
 ---
 
@@ -190,12 +192,14 @@ The table's ordering contradicts the header sequence. Worse, the table makes **J
 
 ---
 
-### L4 — SPOILERS.md still says "127 tracks" (stale count)
+### L4 — SPOILERS.md still says "127 tracks" (stale count) ✅ RESOLVED
 
 **Severity:** Low
 **Affected:** `SPOILERS.md:96`
 
-`SPOILERS.md:96` still reads "ten albums, **127 tracks**, 'one unbroken count'" — the same stale count fixed in README/MEMORY during the M1 pass, but missed here. Should read **147 tracks**. (`grep` confirms this is the only remaining "127 tracks" in tracked non-ISSUES content.)
+`SPOILERS.md:96` still read "ten albums, **127 tracks**, 'one unbroken count'" — the same stale count fixed in README/MEMORY during the M1 pass, but missed here. Should read **147 tracks**. (`grep` confirmed it was the only remaining "127 tracks" in tracked non-ISSUES content.)
+
+**Fix applied (2026-09-15):** Changed "127 tracks" → **"147 tracks"** at `SPOILERS.md:96`.
 
 ---
 

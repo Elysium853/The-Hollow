@@ -8,7 +8,7 @@
 
 ---
 
-**[Voice 1: LINA - Age 34, lower register, smoker's rasp, Filipino accent, weary but unbreakable, speaks slowly, each word weighted]**
+**[Voice 1: LINA - Age 46, lower register, smoker's rasp, Filipino accent, weary but unbreakable, speaks slowly, each word weighted]**
 
 *Lina:*
 I am the first.
@@ -37,7 +37,7 @@ Filled.
 
 ---
 
-**[Voice 2: MARISOL - Age 29, middle register, trembling vibrato, tears in throat, breathy, emotional breaks between phrases, builds to strength by end]**
+**[Voice 2: MARISOL - Age 45, middle register, trembling vibrato, tears in throat, breathy, emotional breaks between phrases, builds to strength by end]**
 
 *Marisol:*
 I am the second.
@@ -68,7 +68,7 @@ Speak.
 
 ---
 
-**[Voice 3: TESS - Age 24, higher register, clear and bell-like but knowing, young woman's voice with ancient weight, precise diction, almost clinical detachment that cracks into feeling, faster speech pattern]**
+**[Voice 3: TESS - Age 44, higher register, clear and bell-like but knowing, precise diction, almost clinical detachment that cracks into feeling, faster speech pattern]**
 
 *Tess:*
 I am the third.
@@ -101,7 +101,7 @@ Who finally
 
 ---
 
-**[Voice 4: JO - Age 19, raw, untrained, fierce, hoarse from screaming, working class accent, speaks fast then slows, youngest but most certain, voice closest to breaking but never breaks]**
+**[Voice 4: JO - Age 47, raw, fierce, hoarse from screaming, working class accent, speaks fast then slows, voice closest to breaking but never breaks]**
 
 *Jo:*
 I am the fourth.
