@@ -34,7 +34,7 @@ printf '%s\n' "-----------------------------------------------------------------
 for dir in */; do
   dir="${dir%/}"
   case "$dir" in
-    .git|.github|.logs|.private|.temp|_POTENTIAL-UPDATES|node_modules|scripts) continue ;;
+    .git|.github|.logs|.private|.temp|node_modules|scripts) continue ;;
   esac
   [ -d "$dir" ] || continue
   [ -n "$(ls -A "$dir")" ] || continue   # skip empty dirs (no album content)
@@ -115,7 +115,7 @@ for dir in */; do
 done
 
 # ---------------------------------------------------------------------------
-# ID3 tag layer (distribution metadata — see _POTENTIAL-UPDATES items #4/#10)
+# ID3 tag layer (distribution metadata — see ISSUES.md for the tag-layer rules)
 # Needs a python3 with the `mutagen` package; skipped with a warning if absent.
 # ---------------------------------------------------------------------------
 TAG_PY=""
@@ -135,7 +135,7 @@ import sys
 
 from mutagen.id3 import ID3
 
-SKIP = {".git", ".github", ".logs", ".private", ".temp", "_POTENTIAL-UPDATES", "node_modules", "scripts"}
+SKIP = {".git", ".github", ".logs", ".private", ".temp", "node_modules", "scripts"}
 ARTIST = "Echoes of 1848"   # official credit, settled 2026-08-27
 GENRE = "Mixed"
 YEAR = "2026"

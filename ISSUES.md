@@ -42,14 +42,14 @@ The audio-integrity baseline recorded **127 rows**; the repo holds **147 MP3s**.
 
 ---
 
-### L1 — Canon-referenced `_POTENTIAL-UPDATES/` folder did not exist ✅ RESOLVED
+### L1 — Canon-referenced `_POTENTIAL-UPDATES/` folder did not exist ✅ RESOLVED (folder removed)
 
 **Severity:** Low
 **Affected:** `CANON.md`, repo root
 
-`CANON.md:127` instructs contributors that any canon discrepancy "belongs in `_POTENTIAL-UPDATES/_POTENTIAL-UPDATES.md` as a P0-style item," but no such folder existed.
+`CANON.md:127` instructed contributors that any canon discrepancy "belongs in `_POTENTIAL-UPDATES/_POTENTIAL-UPDATES.md` as a P0-style item," but no such folder existed.
 
-**Fix applied:** Created `_POTENTIAL-UPDATES/_POTENTIAL-UPDATES.md` (with a P0-style template mirroring the canon-drift workflow) and added `_POTENTIAL-UPDATES/` to `.gitignore` (it is a private working register; the folder is already excluded from `check-parity.sh` and `audio-audit.sh` discovery).
+**Fix applied (2026-09-15):** The `_POTENTIAL-UPDATES/` folder (and its `_POTENTIAL-UPDATES.md`) was **deleted** per Ely's decision — canon-drift notes now live directly in **this file (`ISSUES.md`)**. `CANON.md` now points discrepancies at `ISSUES.md` as P0-style items; all `_POTENTIAL-UPDATES` references were removed from `.gitignore`, `README.md`, and the `SKIP`/exclusion lists in `scripts/check-parity.sh`, `scripts/tag.sh`, and `scripts/audio-audit.sh`.
 
 ---
 

@@ -124,5 +124,5 @@ Each entry: the plain meaning, then how the saga uses it. Keep new tracks accura
 
 ---
 
-*Maintained as part of the Echoes of 1848 universe. If a track or a re-read ever contradicts this document, this document is the source of truth and the discrepancy belongs in `_POTENTIAL-UPDATES/_POTENTIAL-UPDATES.md` as a P0-style item.*
+*Maintained as part of the Echoes of 1848 universe. If a track or a re-read ever contradicts this document, this document is the source of truth and the discrepancy belongs in `ISSUES.md` as a P0-style item.*
 

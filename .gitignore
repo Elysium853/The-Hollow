@@ -2,7 +2,6 @@
 .private/
 .temp/
 node_modules/
-_POTENTIAL-UPDATES/
 /.github/*
 !/.github/workflows/
 !/.github/workflows/*
