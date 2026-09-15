@@ -57,7 +57,7 @@ fi
 mapfile -t FILES < <(
   find . -type f -name '*.mp3' \
     -not -path './.git/*' -not -path './.github/*' -not -path './node_modules/*' \
-    -not -path './.logs/*' -not -path './.private/*' -not -path './.temp/*' \
+    -not -path './.logs/*' -not -path './.private/*' \
     -not -path './scripts/*' \
     | sed 's|^\./||' | sort
 )

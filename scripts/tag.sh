@@ -92,7 +92,7 @@ ROOT = os.getcwd()
 
 # Mirror the album discovery / skip list used by scripts/check-parity.sh.
 SKIP = {
-    ".git", ".github", ".logs", ".private", ".temp",
+    ".git", ".github", ".logs", ".private",
     "node_modules", "scripts",
 }
 TRACK_MD = re.compile(r"^\d{1,2} - .+\.md$")

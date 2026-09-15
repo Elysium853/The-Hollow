@@ -34,7 +34,7 @@ printf '%s\n' "-----------------------------------------------------------------
 for dir in */; do
   dir="${dir%/}"
   case "$dir" in
-    .git|.github|.logs|.private|.temp|node_modules|scripts) continue ;;
+    .git|.github|.logs|.private|node_modules|scripts) continue ;;
   esac
   [ -d "$dir" ] || continue
   [ -n "$(ls -A "$dir")" ] || continue   # skip empty dirs (no album content)
@@ -135,7 +135,7 @@ import sys
 
 from mutagen.id3 import ID3
 
-SKIP = {".git", ".github", ".logs", ".private", ".temp", "node_modules", "scripts"}
+SKIP = {".git", ".github", ".logs", ".private", "node_modules", "scripts"}
 ARTIST = "Echoes of 1848"   # official credit, settled 2026-08-27
 GENRE = "Mixed"
 YEAR = "2026"

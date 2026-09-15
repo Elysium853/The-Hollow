@@ -80,7 +80,7 @@ Tracks are AI-generated (Suno); each MP3 ships with a canonical ID3v2.3 tag set 
 - `SPOILERS.md` — a spoil-heavy companion for after the albums: what the child in the box is, how the count and the bindings work, and the mechanics the saga only explains across several albums. Safe-to-read-first summary in §0; track captions that keep the count live in `CAPTIONS.md`.
 - `.private/MEMORY.md` — private workspace memory for AI agents (canon, conventions, discrepancies, workflow); gitignored, never committed (per the workspace-wide `.private/MEMORY.md` convention).
 - `.gitattributes` — text conventions: all markdown and scripts are LF (normalized 2026-08-27) and MP3s are marked binary; no Git LFS in use, so a plain `git clone` is complete.
-- `.gitignore` — excludes `.logs/`, `.private/`, `.temp/`, `node_modules/`, and everything under `.github/` except `workflows/`; `.private/` holds the AI workspace memory and API config and must never be committed.
+- `.gitignore` — excludes `.logs/`, `.private/`, `node_modules/`, and everything under `.github/` except `workflows/`; `.private/` holds the AI workspace memory and API config and must never be committed.
 
 ## Status
 

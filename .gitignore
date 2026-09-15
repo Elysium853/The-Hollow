@@ -1,6 +1,5 @@
 .logs/
 .private/
-.temp/
 node_modules/
 /.github/*
 !/.github/workflows/
