@@ -12,6 +12,46 @@ The repository is in **excellent mechanical health**: `scripts/check-parity.sh` 
 
 ---
 
+## Canon-drift / P0-style items (register)
+
+*The designated home for canon discrepancies and potential updates, per `CANON.md`: "If a track or a re-read ever contradicts this document, this document is the source of truth and the discrepancy belongs in `ISSUES.md` as a P0-style item."*
+
+**How to use this register:**
+1. Add a candidate below in P0-style format — severity, the canon it conflicts with, the evidence, and the proposed fix.
+2. Leave it here until the conflict is *verified and resolved*.
+3. When promoted into canon, update `CANON.md` (and `scripts/check-parity.sh` if the rule is machine-enforced), then mark the item **RESOLVED** with the commit that closed it.
+
+**P0-style template:**
+
+```markdown
+### [P0|P1|P2] — Short title of the discrepancy
+- **Status:** OPEN / RESOLVED
+- **Found:** YYYY-MM-DD
+- **Canon source of truth:** (which CANON.md section this conflicts with)
+- **Where it appears:** (album / track / file / line)
+- **The discrepancy:** (what the track or re-read says vs. what canon says)
+- **Evidence:** (quote the offending text and the canonical text)
+- **Proposed fix:** (what to change, and in which file(s); whether check-parity.sh must change)
+- **Resolved in:** (commit hash, once resolved)
+```
+
+### Register
+
+#### P2 — "Six points" wrinkle in The-Hollow-Destroyed (flagged in canon, not yet enforced)
+
+- **Status:** OPEN
+- **Found:** 2026-08-28 (flagged in CANON.md §"Known wrinkles")
+- **Canon source of truth:** `CANON.md` → "The arithmetic lock" (§ item 3: the star has exactly four points and wants exactly one fifth — never three, five, or six star-points among the coven)
+- **Where it appears:** `The-Hollow-Destroyed/13 - Lumawig's Blade.md` (outro), and the Restoration prose's closing summary table "The Six Points" (in `The-Hollow-Destroyed/The-Hollow-Destroyed.md`)
+- **The discrepancy:** The outro sings "Six points of the star / Six women made whole," and the prose names six women (Lina, Marisol, Tess, Jo, Dalisay, Ulan) as "The Six Points" — read per canon as four points + the fifth (Dalisay, the center) + Ulan (the living proof), *not* six star-points. The count itself ("ten, eleven, twelve, and one to come") is unaffected.
+- **Evidence:** `The-Hollow-Destroyed/13 - Lumawig's Blade.md` — "Six points of the star / Six women made whole"; `The-Hollow-Destroyed.md` §"The Six Points"
+- **Proposed fix:** Leave as-is while the canon reads it as "the new constellation of the healed" (SPOILERS.md §12). Only reconcile the literal "six points" language if track 13 is ever touched for another reason. No `check-parity.sh` change needed (not machine-enforced).
+- **Resolved in:** — (OPEN)
+
+*(No other open items — add the next one above when a conflict is found.)*
+
+---
+
 ## Issues
 
 ### M1 — Track-count and runtime claims are stale (127 → 147 tracks) ✅ RESOLVED
